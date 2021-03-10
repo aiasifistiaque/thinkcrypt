@@ -8,20 +8,11 @@
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
-	//box-sizing: border-box;
-	// background: linear-gradient(
-	// 		308.21deg,
-	// 		#68c6df 7.13%,
-	// 		rgba(147, 214, 232, 0.7151) 47.81%,
-	// 		rgba(192, 231, 242, 0.415205) 67.8%,
-	// 		rgba(229, 245, 249, 0.173889) 93.79%,
-	// 		rgba(255, 255, 255, 0) 117.24%
-	// 	),
-	// 	#6991de;
+	max-width: 100vw;
 
 	@media only screen and (max-width: $medium-screen) {
 		flex-direction: column;
-		padding: 2%;
+		padding: 0;
 	}
 }
 
@@ -34,5 +25,13 @@
 .value-button-container {
 	display: flex;
 	flex-direction: column;
-	min-width: 200px;
+
+	@media only screen and (max-width: $medium-screen) {
+		max-height: 100vh;
+	}
+}
+
+.value-button-title {
+	display: inline;
+	margin-right: 20px;
 }

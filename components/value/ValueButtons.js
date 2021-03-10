@@ -7,12 +7,7 @@ const ValueButtons = ({ onPress }) => {
 		<ValueButtonContainer>
 			{valueArray.map((item, i) => (
 				<ValueSingleButtonBox key={i}>
-					<div
-						style={{
-							display: 'inline',
-							flex: 1,
-							marginRight: 20,
-						}}>
+					<div className='value-button-title'>
 						<p
 							style={{
 								margin: 0,

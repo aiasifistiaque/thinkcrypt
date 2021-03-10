@@ -22,10 +22,9 @@ const ValueMainContainer = ({ children }) => {
 			style={{
 				display: 'flex',
 				flex: 1,
-
 				boxSizing: 'border-box',
-				//maxWidth: '60vw',
-				//width: '100vw',
+
+				maxWidth: '100vw',
 			}}>
 			{children}
 		</div>
