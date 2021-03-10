@@ -118,14 +118,16 @@
 	height: 90vh;
 	padding: 5%;
 	box-sizing: border-box;
-	animation-name: tonext;
 	animation-timing-function: ease;
 	animation-duration: 2s;
+
 	//animation-iteration-count: infinite;
+	@media only screen and (min-width: $large-screen) {
+		animation-name: tonext;
+	}
 
 	@media only screen and (max-width: $medium-screen) {
 		flex-direction: column-reverse;
-
 		padding-top: 10%;
 	}
 }
