@@ -1,0 +1,75 @@
+@import '../constants';
+
+.home-top-text-container {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	height: 90vh;
+
+	@media only screen and (max-width: $medium-screen) {
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: stretch;
+	}
+}
+
+.home-top-texts {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding: 2rem;
+	padding: '10%';
+
+	@media only screen and (max-width: $medium-screen) {
+		text-align: center;
+	}
+
+	h3 {
+		//margin-top: 30vh;
+		color: white;
+		font-size: 2em;
+		font-weight: 700;
+
+		@media only screen and (max-width: $large-screen) {
+			font-size: 1.5em;
+		}
+	}
+
+	p {
+		color: white;
+		font-size: 15px;
+		//margin-bottom: 30vh;
+	}
+}
+
+.slider-quote-button {
+	display: block;
+	padding: 10px 10px;
+	background-color: #799de2;
+	color: black;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	margin: 10px 0px;
+	cursor: pointer;
+	transition: 0.3s;
+
+	@media only screen and (max-width: $large-screen) {
+		//padding: 2px 10px;
+	}
+
+	p {
+		color: white;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+
+	&:hover {
+		background-color: rgba(white, 0.5);
+
+		p {
+			color: #799de2;
+		}
+	}
+}

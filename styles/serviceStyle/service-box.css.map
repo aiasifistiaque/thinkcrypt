@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACZ,gBAAgB,EAAO,wBAAK;EAC5B,aAAa,EAAE,IAAI;EACnB,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,EAAE;EACV,eAAe,EAAE,YAAY;CAK7B;;AAXD,AAQC,YARW,CAQX,EAAE,CAAC;EACF,UAAU,EAAE,MAAM;CAClB",
+    "sources": [
+        "service-box.scss"
+    ],
+    "names": [],
+    "file": "service-box.css"
+}

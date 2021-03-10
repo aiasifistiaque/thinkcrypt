@@ -1,0 +1,29 @@
+.core-values {
+	margin: 40px;
+	//padding: 10px;
+	transition: 0.5s;
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-top: 20px;
+	//align-items: center;
+	justify-content: center;
+
+	@media only screen and (max-width: $medium-screen) {
+		margin-right: 10px;
+	}
+
+	h3 {
+		//margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	p {
+		line-height: 3rem;
+
+		//text-align: justify;
+		@media only screen and (max-width: $medium-screen) {
+			line-height: 2rem;
+		}
+	}
+}

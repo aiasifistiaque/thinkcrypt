@@ -1,0 +1,63 @@
+//journey section
+
+.journey-section-container {
+	display: flex;
+	min-height: 100vh;
+	// background: linear-gradient(
+	// 		280.51deg,
+	// 		#68c6df -3.4%,
+	// 		rgba(147, 214, 232, 0.7151) 27.36%,
+	// 		rgba(192, 231, 242, 0.415205) 56.08%,
+	// 		rgba(229, 245, 249, 0.173889) 92.1%,
+	// 		rgba(255, 255, 255, 0) 124.03%
+	// 	),
+	// 	#6991de;
+	padding: 5%;
+
+	@media only screen and (max-width: $medium-screen) {
+		flex-direction: column-reverse;
+	}
+}
+
+.journey-text-section {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	align-items: center;
+	justify-content: space-evenly;
+	flex: 1;
+	padding: 10%;
+	color: white;
+
+	@media only screen and (max-width: $medium-screen) {
+		padding: 5%;
+	}
+
+	h3 {
+		font-size: 3rem;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+		@media only screen and (max-width: $medium-screen) {
+			font-size: 2rem;
+		}
+	}
+
+	p {
+		line-height: 2rem;
+		font-size: 1.1rem;
+
+		@media only screen and (max-width: $medium-screen) {
+			font-size: 1rem;
+		}
+	}
+}
+
+.journey-image-section {
+	display: flex;
+	flex: 1;
+	padding: 5%;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}

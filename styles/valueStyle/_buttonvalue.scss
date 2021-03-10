@@ -1,0 +1,17 @@
+.button-value {
+	background-color: rgba(white, 0.7);
+	display: inline;
+	color: black;
+	cursor: pointer;
+	color: black;
+	padding: 10px;
+	padding-right: 18px;
+	padding-left: 18px;
+	border-radius: 100px;
+	box-sizing: border-box;
+
+	&:hover {
+		background-color: #e7f35a;
+		color: black;
+	}
+}

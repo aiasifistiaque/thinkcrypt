@@ -1,0 +1,23 @@
+.service-card {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid rgba(black, 0.3);
+	border-radius: 4px;
+	height: 100%;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	min-height: 300px;
+	min-width: 200px;
+
+	h4 {
+		text-align: center;
+	}
+
+	p {
+		text-align: center;
+	}
+}
