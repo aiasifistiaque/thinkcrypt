@@ -6,7 +6,6 @@
 	flex-direction: column;
 	margin-left: 20px;
 	margin-top: 20px;
-	//align-items: center;
 	justify-content: center;
 
 	@media only screen and (max-width: $medium-screen) {
@@ -26,11 +25,9 @@
 
 	p {
 		line-height: 3rem;
+		margin: 0; //text-align: justify;
 
-		//text-align: justify;
 		@media only screen and (max-width: $medium-screen) {
-			line-height: 2rem;
-			margin: 0;
 			padding: 0;
 		}
 	}

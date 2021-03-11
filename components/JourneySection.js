@@ -17,7 +17,7 @@ const JourneyTextSection = () => {
 		<div className='journey-text-section'>
 			<h3>{journeyData.title}</h3>
 			{journeyData.dataArray.map((item, i) => (
-				<p>{item.data}</p>
+				<p key={i}>{item.data}</p>
 			))}
 		</div>
 	);

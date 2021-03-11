@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Slider = ({ i }) => {
 	return (
-		<div class='slider'>
+		<div className='slider'>
 			<div className='home-top-texts'>
 				<h3>{heroData[i].title}</h3>
 				<p>{heroData[i].data}</p>

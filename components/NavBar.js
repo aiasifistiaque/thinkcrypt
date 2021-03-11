@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 
-export default function NavBar() {
+export default function NavBar({ scrollTo }) {
 	return (
 		<Navbar expand='lg'>
 			<Navbar.Brand
@@ -21,20 +21,22 @@ export default function NavBar() {
 						flex: 1,
 						justifyContent: 'flex-end',
 					}}>
-					<NavItem href='#home'>Home</NavItem>
-					<NavItem href='#link'>Services</NavItem>
-					<NavItem href='#link'>Portfolio</NavItem>
-					<NavItem href='#link'>Contact us</NavItem>
+					<NavItem>Home</NavItem>
+					<NavItem onPress={() => scrollTo('aboutus')}>About us</NavItem>
+					<NavItem onPress={() => scrollTo('services')}>Services</NavItem>
+					<NavItem onPress={() => scrollTo('value')}>Values</NavItem>
+					<NavItem>Portfolio</NavItem>
+					<NavItem>Contact us</NavItem>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
 	);
 }
 
-const NavItem = ({ children, href }) => {
+const NavItem = ({ children, href, onPress }) => {
 	return (
-		<div className='nav-item'>
-			<a href={href}>{children}</a>
+		<div className='nav-item' onClick={onPress}>
+			<p href={href}>{children}</p>
 		</div>
 	);
 };

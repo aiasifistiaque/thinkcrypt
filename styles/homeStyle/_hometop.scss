@@ -4,7 +4,7 @@
 	display: flex;
 	flex: 1;
 	align-items: center;
-	height: 90vh;
+	height: 92vh;
 
 	@media only screen and (max-width: $medium-screen) {
 		flex-direction: column-reverse;
