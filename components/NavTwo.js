@@ -6,7 +6,6 @@ export default function NavTwo() {
 	return (
 		<Navbar expand='lg'>
 			<Navbar.Brand
-				href='#home'
 				style={{
 					color: 'rgba(0,0,0,.6)',
 					paddingLeft: '1rem',

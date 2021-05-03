@@ -6,7 +6,6 @@ export default function NavBar({ scrollTo }) {
 	return (
 		<Navbar expand='lg'>
 			<Navbar.Brand
-				href='#home'
 				style={{
 					color: 'white',
 					paddingLeft: '1rem',
