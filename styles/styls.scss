@@ -12,3 +12,62 @@ p {
 	padding: 0;
 	margin: 0;
 }
+
+.page {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.portfolio-page {
+	padding: 2em;
+
+	p {
+		padding: 2em 0;
+	}
+}
+
+.project-card {
+	margin: 1em 0;
+	padding: 2em;
+	background-color: whitesmoke;
+	display: flex;
+	border-radius: 10px;
+
+	@media only screen and (max-width: $medium-screen) {
+		flex-direction: column;
+		margin: 1em -2em;
+		border-radius: 0;
+	}
+
+	.card-items {
+		margin: 1em;
+
+		p {
+			padding: 0.5em 0;
+		}
+	}
+
+	.view-project-button {
+		display: inline-flex;
+		background-color: tomato;
+		padding: 0.5em 1.5em;
+		align-items: center;
+		justify-content: center;
+		color: whitesmoke;
+		border-radius: 30px;
+		cursor: pointer;
+		transition: 0.3s;
+
+		&:hover {
+			background-color: rgba(tomato, 0.8);
+		}
+
+		p {
+			padding: 0;
+			margin: 0;
+			font-size: 1em;
+			font-weight: 500;
+		}
+	}
+}

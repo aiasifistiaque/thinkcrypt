@@ -132,6 +132,21 @@
   margin: 0;
 }
 
+.nav-item-two {
+  margin-right: 1.5rem;
+  padding: 0.5rem;
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.nav-item-two p {
+  padding: 0 1rem;
+  margin: 0;
+}
+
 .service-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -680,5 +695,83 @@
 p {
   padding: 0;
   margin: 0;
+}
+
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+.portfolio-page {
+  padding: 2em;
+}
+
+.portfolio-page p {
+  padding: 2em 0;
+}
+
+.project-card {
+  margin: 1em 0;
+  padding: 2em;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .project-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 1em -2em;
+    border-radius: 0;
+  }
+}
+
+.project-card .card-items {
+  margin: 1em;
+}
+
+.project-card .card-items p {
+  padding: 0.5em 0;
+}
+
+.project-card .view-project-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: tomato;
+  padding: 0.5em 1.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: whitesmoke;
+  border-radius: 30px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.project-card .view-project-button:hover {
+  background-color: rgba(255, 99, 71, 0.8);
+}
+
+.project-card .view-project-button p {
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  font-weight: 500;
 }
 /*# sourceMappingURL=styls.css.map */

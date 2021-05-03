@@ -52,3 +52,6 @@ export const heroData = [
 		src: '/herothree.png',
 	},
 ];
+
+export const portfolioDescription =
+	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique mi at dignissim tristique. In risus massa, finibus eget vulputate at, ornare ut risus. Vestibulum ut diam lorem. Nullam eu auctor est, et tristique nisl. Nunc sagittis, ipsum a scelerisque commodo, risus risus porta sapien, porttitor commodo tortor magna eget ante. Duis quis lectus accumsan, scelerisque purus quis, mollis felis. In hac habitasse platea dictumst. Morbi lacinia velit nec eros dignissim, ac ullamcorper dolor consequat. Nam feugiat, lorem vestibulum posuere viverra, velit est ornare libero, a ultricies diam erat in orci.';

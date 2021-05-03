@@ -15,3 +15,21 @@
 		margin: 0;
 	}
 }
+
+.nav-item-two {
+	margin-right: 1.5rem;
+	padding: 0.5rem;
+	color: rgba(black, 0.5);
+	transition: 0.4s;
+	cursor: pointer;
+	border-radius: 4px;
+
+	&:hover {
+		//background-color: rgba(white, 0.1);
+	}
+
+	p {
+		padding: 0 1rem;
+		margin: 0;
+	}
+}
