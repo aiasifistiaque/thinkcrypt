@@ -10,7 +10,6 @@ const portfolio = () => {
 		<div className='page'>
 			<Head>
 				<title>thinkCrypt</title>
-				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<NavTwo />
 

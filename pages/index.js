@@ -29,7 +29,6 @@ export default function Home() {
 		<div className='home-top-background'>
 			<Head>
 				<title>thinkCrypt</title>
-				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<NavBar scrollTo={item => scroll(item)} />
 			<HomeTop />
